@@ -1,0 +1,8 @@
+name: AutoJoinVoiceGroup
+version: '1.0-SNAPSHOT'
+main: me.chengzhify.autoJoinVoiceGroup.AutoJoinVoiceGroup
+api-version: '1.20'
+authors: [ ChengZhiFy ]
+depend:
+  - voicechat
+description: Auto join group when player join a server
