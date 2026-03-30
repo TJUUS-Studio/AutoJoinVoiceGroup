@@ -44,10 +44,11 @@ mvn clean package
 触发方式：
 
 - 当推送任意 tag 到 GitHub 时自动触发。
+- 也可在 GitHub 的 Actions 页面手动触发（`Run workflow`），并填写 `tag_name`（例如 `v1.0.0`）。
 
 工作流会执行：
 
-1. 启用 JDK 17 构建 Maven 项目。
+1. 启用 JDK 21 构建 Maven 项目。
 2. 创建 GitHub Release。
 3. 上传 `target/autojoinvoicegroup-*.jar`（并排除 `target/original-*.jar`）。
 
