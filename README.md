@@ -11,7 +11,7 @@
 
 ## 运行环境
 
-- Java 17
+- Java 21
 - Maven 3.8+
 - Paper `1.21.4-R0.1-SNAPSHOT`（编译依赖）
 - 服务端需安装 `Simple Voice Chat`（插件依赖名：`voicechat`）
